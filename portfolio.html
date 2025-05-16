@@ -1,0 +1,202 @@
+<!-- <p>page1</p> -->
+<html>
+<head>
+<title>Online portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 align="center"><i>WELCOME</i></h1>
+<h1 align="center"><i>TO</i></h1>
+<h1 align="center"><i>MY PORTFOLIO</i></h1><br>
+<img src="C:\Users\thanv\OneDrive\Pictures\Screenshots\thanvi.png">
+<br>
+<br>
+<div>
+<button id="myButton">NEXT</button>
+<div>
+<script>
+    document.getElementById("myButton").addEventListener("click", function() {
+        window.open("am.html","_blank");
+    });
+</script>
+</body>
+</html>
+
+<!-- <p>page2</p> -->
+<html>
+<head>
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<table align="center">
+<tr>
+<td align="center"><h3>NAME</h3></td>
+<td><h3>MEDIDI THANVISREE</h3></td>
+</tr>
+<tr>
+<td><h3>FATHER NAME</h3></td>
+<td><h3>MEDIDI P.V.S.NAIDU</h3></td>
+</tr>
+<tr>
+<td><h3>MOTHER NAME</h3></td>
+<td><h3>MEDIDI VASU DEVI</h3></td>
+</tr>
+</table>
+<br>
+<br>
+<h2 align="center">I am an enthusiastic and happy-going individual with a passion to learn new things. I bring energy and positivity to everything I do.I enjoy watching movies and listening to music.</h2>
+<br>
+<br>
+<div>
+<button id="myButton">NEXT</button>
+<div>
+<script>
+    document.getElementById("myButton").addEventListener("click", function() {
+        window.open("edu.html","_blank");
+    });
+</script>
+</body>
+</html>
+
+<!-- <p>page3 </p> -->
+<html>
+<head>
+<title>Education</title>
+<style>
+body{
+border-style:solid;
+background-color:powderblue;
+padding-left:15;
+text-align:center;
+}
+form{
+display:inline-block;
+}
+h1{
+color:green;
+}
+</style>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body ng-app="">
+<h1>EDUCATION</h1>
+<form>
+  <h2><input type="radio" ng-model="myVar" value="school">SCHOOL</h2>
+  <h2><input type="radio" ng-model="myVar" value="inter">INTERMEDIATE</h2>
+  <h2><input type="radio" ng-model="myVar" value="btech">B.TECH</h2>
+</form>
+<div ng-switch="myVar">
+  <div ng-switch-when="school">
+     <h1>GITANJALI DEVAKUL</h1>
+     <img src="C:\Users\thanv\Downloads\gitanjali.jpg" width="300" height="200">
+  </div>
+  <div ng-switch-when="inter">
+     <h1>SRI CHAITANYA BHASKAR BHAVAN</h1>
+     <img src="C:\Users\thanv\Downloads\sri.jpeg" width="300" height="200">
+  </div>
+  <div ng-switch-when="btech">
+     <h1>GITAM</h1>
+     <img src="C:\Users\thanv\Downloads\gitam.webp" width="300" height="200">
+  </div>
+</div>
+<br>
+<div>
+<button id="myButton">NEXT</button>
+<script>
+    document.getElementById("myButton").addEventListener("click", function() {
+        window.open("resume.html","_blank");
+    });
+</script>
+</body>
+</html>
+
+<!-- <p>page4</p> --> 
+  <html>
+<head>
+<title>Resume</title>
+<style>
+body{
+border-style:solid;
+padding-left:30;
+padding-top:30;
+padding-right:30;
+}
+</style>
+</head>
+<body>
+<h1 align="center">THANVISREE MEDIDI</h1>
+<hr>
+ <h2 align="center">Contact-info</h2>
+<hr>
+<table border="1">
+<tr>
+<td>Phno</td>
+<td>9391997401</td>
+</tr>
+<tr>
+<td>E-mail</td>
+<td>mediditanvisri@gmail.com</td>
+</tr>
+</table>
+<hr>
+<h2 align="center">Education</h2>
+<HR>
+<ul>
+<li>
+Bachelor of Technology (B.Tech) -CSE
+<br>
+GITAM INSTITUTE OF TECHNOLOGY, 2022-2026
+<br>
+Rudraram,Telangana
+</li>
+<li>
+Intermediate 
+<br>
+ SRI CHAITANYA , 2020-2022
+<br>
+Kukatpally,Hyderabad 
+</li>
+<li>
+ Secondary education 
+<br>
+ GITANJALI DEVAKUL, 20-2020
+<br>
+Kukatpally,Hyderabad 
+</li>
+</ul>
+</div>
+<hr>
+ <h2 align="center">Skills</h2>
+<HR>
+ <ul>
+ <li>HTML</li>
+ <li>EXCEL</li>
+ <li>JAVA</li>
+ <li>C</li>
+<li>SQL</li>
+<li>Problem Solving</li>
+ </ul>
+</div>
+<hr>
+ <div >
+ <h2 align="center">Internships</h2>
+ <HR>
+ <ul>
+  <li>
+ Intern - Android Developer <br>
+ AICTE, June 2023 - May 2024<br>
+ <br>
+</li>
+</ul>
+</div>
+<HR>
+<h2 align="center">Hobbies</h2>
+<HR>
+ <ul>
+<li>Reading</li>
+<li>listening to music</li>
+<li>watching content</li>
+</ul>
+</body>
+</html>
